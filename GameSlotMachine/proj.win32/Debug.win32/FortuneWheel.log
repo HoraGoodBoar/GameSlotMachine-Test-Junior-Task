@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug.win32\) contains files shared from another project (FortuneWheel.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AppDelegate.cpp
+  SlotMachineScene.cpp
+  Lever.cpp
+  main.cpp
+  MainMachineControl.cpp
+  Money.cpp
+  Slot.cpp
+  SlotControl.cpp
+c:\users\dimak\documents\github\gameslotmachine\gameslotmachine\proj.win32\mainmachinecontrol.cpp(38): warning C4305: 'argument': truncation from 'double' to 'float'
+  LINK : C:\Users\dimak\Documents\GitHub\GameSlotMachine\GameSlotMachine\proj.win32\Debug.win32\GameSlotMachine.exe not found or not built by the last incremental link; performing full link
+AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library C:\Users\dimak\Documents\GitHub\GameSlotMachine\GameSlotMachine\proj.win32\Debug.win32\GameSlotMachine.lib and object C:\Users\dimak\Documents\GitHub\GameSlotMachine\GameSlotMachine\proj.win32\Debug.win32\GameSlotMachine.exp
+  FortuneWheel.vcxproj -> C:\Users\dimak\Documents\GitHub\GameSlotMachine\GameSlotMachine\proj.win32\Debug.win32\GameSlotMachine.exe
+  Performing Custom Build Step
+  0 File(s) copied

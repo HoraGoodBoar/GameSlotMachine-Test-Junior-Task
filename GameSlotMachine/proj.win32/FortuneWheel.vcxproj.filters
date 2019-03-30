@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{3bc4d299-3047-48b3-9595-c08110334dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SlotMachineScene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMachineControl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Lever.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Money.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotControl.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Slot.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SlotMachineScene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMachineControl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="DataParameters.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Lever.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Money.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotControl.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="WinOrLose.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
